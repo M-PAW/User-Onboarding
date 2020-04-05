@@ -1,0 +1,81 @@
+
+
+html body {
+   background-color:black;
+}
+
+.flexContainer {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div {
+    padding-top: 1%;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    right: 0px;
+    margin: 0 auto;
+    width: 55%;
+}
+
+label p {
+    color: red
+}
+
+.field {
+    margin-right: 4%;
+}
+
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 2% 2% 2%;
+    border-top: 1px solid black;
+
+}
+
+
+.userCard {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    padding: 2% 11%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    min-height: 140px;
+    border-radius: 5px;
+}
+
+/* .userCard h3 {
+    padding-left: 3%;
+    width: 4%;
+} */
+
+.userFrame {
+    border: 1px transparent green;
+    /* box-shadow: 1px 1px 3px green,
+                -1px -1px 3px green; */
+    padding: 10px 15px;
+    margin: 2%;
+    border: 2px transparent crimson;
+    color: crimson;
+    box-shadow: 2px 4px 10px crimson,
+                -1px -1px 14px sienna;
+}
